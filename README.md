@@ -33,27 +33,10 @@ Run the main prediction script:
 python student_performance_prediction.py
 ```
 
-## 📈 Visualizations
-The model generates several plots to evaluate performance:
-
-### 1. Data Distribution
-Shows the relationship between Study Hours, Attendance, and the resulting Pass/Fail outcome.
-![Data Distribution](data_distribution.png)
-
-### 2. Learning Curves
-Tracks Accuracy and Loss over 50 training epochs.
-![Learning Curves](learning_curves.png)
-
-### 3. Confusion Matrix
-Displays the precision of predictions for both classes.
-![Confusion Matrix](confusion_matrix.png)
-
 ## 📂 Project Structure
 - `student_performance_prediction.py`: Main Python script.
-- `student_performance_report.md`: Detailed technical report.
 - `requirements.txt`: List of dependencies.
-- `*.png`: Evaluation plots.
-- `student_performance_model.keras`: Saved trained model.
+- `.gitignore`: Git exclusion rules.
 
 ## 🛠️ Built With
 - **TensorFlow/Keras** - Deep Learning Framework
